@@ -1,24 +1,24 @@
 
 //reverse String
 
-// function reverseString(str){
-//     return str.split("").reverse().join("");
-// }
-// console.log(reverseString("hello Elakkiya"))
+function reverseString(str){
+    return str.split("").reverse().join("");
+}
+console.log(reverseString("hello Elakkiya"))
 
 //find a  longest word
-function findlongestWord(sentence){
-    const words=sentence.split(" ");
-    let longestWord="";
+// function findlongestWord(sentence){
+//     const words=sentence.split(" ");
+//     let longestWord="";
 
-    for(let word of words){
+//     for(let word of words){
         
-        if (word.lenght > longestWord.length){
+//         if (word.lenght > longestWord.length){
 
-            longestWord=word;
+//             longestWord=word;
 
-        }
-    }
- return longestWord;
-}
-console.log(findlongestWord("i love codding in javascript"));
+//         }
+//     }
+//  return longestWord;
+// }
+// console.log(findlongestWord("i love codding in javascript"));
